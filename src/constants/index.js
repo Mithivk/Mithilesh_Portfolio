@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  vighnotech,
+  EliteForums,
+  Digisir,
+  Knowex,
+  Carbon
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +59,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
   },
 ];
@@ -116,57 +121,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer Intern",
+    company_name: "Vighnotech",
+    icon: vighnotech,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "December 2024 - March 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed responsive and visually appealing landing pages for the company and its clients, optimized for user engagement and traffic growth.",
+      "Collaborated with the design and marketing teams to align landing page UI/UX with business goals.",
+      "In the final month, contributed to the development of the company's CRM product.",
+      "Built a Dynamic Form Builder feature within the CRM, enabling users to create customizable, shareable forms to capture and manage leads efficiently.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer Intern",
+    company_name: "Elite Forums",
+    icon: EliteForums,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed as a Full Stack Developer Intern on two major products: DigiSir (web) and an Event Management App (mobile).",
+      "Developed and maintained core features of DigiSir, a SaaS-based class management platform, using the MERN stack.",
+      "Developed a cross-platform Event Management app in React Native with features like event creation, discovery, ticketing, and QR-based registration.",
+      "Integrated Firebase for authentication, real-time updates, and media handling to ensure seamless mobile experience.",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
@@ -198,9 +177,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "DigiSir",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A SaaS-based class management platform that allows users to create and manage classes, track attendance, and generate reports.",
     tags: [
       {
         name: "react",
@@ -215,41 +194,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Digisir,
+    source_code_link: "https://github.com/infohellodigisir/hellodigisir.git",
   },
   {
-    name: "Job IT",
+    name: "Knowex",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Knowlex is a dynamic community platform that lets users connect through posts, real-time chats, and events. From sharing updates to buying event tickets.",
     tags: [
       {
-        name: "react",
+        name: "reactNaitive",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +215,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Knowex,
+    source_code_link: "https://github.com/HackSmith010/KnowEX.git",
+  },
+  {
+    name: "Carbon Emission Tracker",
+    description:
+      "A web application that helps users track and reduce their carbon footprint by logging daily activities and offering personalized eco-friendly tips.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Carbon,
+    source_code_link: "https://github.com/Mithivk/carbon_emission_frontend.git",
   },
 ];
 

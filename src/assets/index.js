@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,9 +29,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import vighnotech from "./company/vighnotech.png";
+import EliteForums from './company/eliteforums_logo.jpg';
 
+import Digisir from './digisir.png';
+import Knowex from './knowex.jpeg';
+import Carbon from './carbon.webp'
 export {
-  logo,
   backend,
   creator,
   mobile,
@@ -59,4 +63,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  vighnotech,
+  EliteForums,
+  Digisir,
+  Knowex,
+  Carbon
 };
