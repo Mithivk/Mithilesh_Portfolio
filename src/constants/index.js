@@ -138,7 +138,7 @@ const experiences = [
     company_name: "Elite Forums",
     icon: EliteForums,
     iconBg: "#E6DEDD",
-    date: "Jan 2024 - Present",
+    date: "Jan 2024 - Aug 2024",
     points: [
       "Contributed as a Full Stack Developer Intern on two major products: DigiSir (web) and an Event Management App (mobile).",
       "Developed and maintained core features of DigiSir, a SaaS-based class management platform, using the MERN stack.",
